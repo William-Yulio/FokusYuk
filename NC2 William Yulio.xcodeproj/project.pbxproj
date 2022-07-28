@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF272AC2288DAE0100CF8C05 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF272AC0288DAE0100CF8C05 /* CoreDataModel.xcdatamodeld */; };
+		AF272AC4288E84FA00CF8C05 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272AC3288E84FA00CF8C05 /* CoreDataManager.swift */; };
+		AF272AC6288ED6FB00CF8C05 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272AC5288ED6FB00CF8C05 /* TodoListViewModel.swift */; };
+		AF272AC8289125BD00CF8C05 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272AC7289125BD00CF8C05 /* TimerViewModel.swift */; };
+		AF272ACA289131A100CF8C05 /* TimeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272AC9289131A100CF8C05 /* TimeComponent.swift */; };
+		AF272ACC28917F4200CF8C05 /* PickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272ACB28917F4200CF8C05 /* PickerComponent.swift */; };
 		AF8AF668288932D100ACFC93 /* NC2_William_YulioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF667288932D100ACFC93 /* NC2_William_YulioApp.swift */; };
-		AF8AF66A288932D100ACFC93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF669288932D100ACFC93 /* ContentView.swift */; };
+		AF8AF66A288932D100ACFC93 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF669288932D100ACFC93 /* TodoListView.swift */; };
 		AF8AF66C288932D400ACFC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8AF66B288932D400ACFC93 /* Assets.xcassets */; };
 		AF8AF66F288932D400ACFC93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8AF66E288932D400ACFC93 /* Preview Assets.xcassets */; };
+		AF8AF68028895A5D00ACFC93 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF67F28895A5D00ACFC93 /* ColorExtension.swift */; };
+		AF8AF682288A797E00ACFC93 /* TodayGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF681288A797E00ACFC93 /* TodayGoalView.swift */; };
+		AF8AF684288A9F5300ACFC93 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF683288A9F5300ACFC93 /* NavigationBarModifier.swift */; };
+		AF8AF686288AF0DE00ACFC93 /* FocusTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF685288AF0DE00ACFC93 /* FocusTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF272AC1288DAE0100CF8C05 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		AF272AC3288E84FA00CF8C05 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		AF272AC5288ED6FB00CF8C05 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		AF272AC7289125BD00CF8C05 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		AF272AC9289131A100CF8C05 /* TimeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeComponent.swift; sourceTree = "<group>"; };
+		AF272ACB28917F4200CF8C05 /* PickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerComponent.swift; sourceTree = "<group>"; };
 		AF8AF664288932D100ACFC93 /* NC2 William Yulio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC2 William Yulio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8AF667288932D100ACFC93 /* NC2_William_YulioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_William_YulioApp.swift; sourceTree = "<group>"; };
-		AF8AF669288932D100ACFC93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF8AF669288932D100ACFC93 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		AF8AF66B288932D400ACFC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF8AF66E288932D400ACFC93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF8AF67F28895A5D00ACFC93 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		AF8AF681288A797E00ACFC93 /* TodayGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayGoalView.swift; sourceTree = "<group>"; };
+		AF8AF683288A9F5300ACFC93 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		AF8AF685288AF0DE00ACFC93 /* FocusTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,11 @@
 		AF8AF666288932D100ACFC93 /* NC2 William Yulio */ = {
 			isa = PBXGroup;
 			children = (
+				AF8AF678288951CC00ACFC93 /* Common Model */,
+				AF8AF677288951C000ACFC93 /* Helper */,
+				AF8AF676288951AE00ACFC93 /* Utilities */,
+				AF8AF6752889505500ACFC93 /* Feature */,
 				AF8AF667288932D100ACFC93 /* NC2_William_YulioApp.swift */,
-				AF8AF669288932D100ACFC93 /* ContentView.swift */,
 				AF8AF66B288932D400ACFC93 /* Assets.xcassets */,
 				AF8AF66D288932D400ACFC93 /* Preview Content */,
 			);
@@ -65,6 +88,93 @@
 				AF8AF66E288932D400ACFC93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF8AF6752889505500ACFC93 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				AF8AF67A2889525800ACFC93 /* Focus Time */,
+				AF8AF6792889524300ACFC93 /* Todo List */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		AF8AF676288951AE00ACFC93 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AF272AC3288E84FA00CF8C05 /* CoreDataManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AF8AF677288951C000ACFC93 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AF8AF67F28895A5D00ACFC93 /* ColorExtension.swift */,
+				AF8AF683288A9F5300ACFC93 /* NavigationBarModifier.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AF8AF678288951CC00ACFC93 /* Common Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF272AC0288DAE0100CF8C05 /* CoreDataModel.xcdatamodeld */,
+			);
+			path = "Common Model";
+			sourceTree = "<group>";
+		};
+		AF8AF6792889524300ACFC93 /* Todo List */ = {
+			isa = PBXGroup;
+			children = (
+				AF8AF67E288952DE00ACFC93 /* ViewModel */,
+				AF8AF67D288952D600ACFC93 /* View */,
+			);
+			path = "Todo List";
+			sourceTree = "<group>";
+		};
+		AF8AF67A2889525800ACFC93 /* Focus Time */ = {
+			isa = PBXGroup;
+			children = (
+				AF8AF67C288952A600ACFC93 /* ViewModel */,
+				AF8AF67B2889529400ACFC93 /* View */,
+			);
+			path = "Focus Time";
+			sourceTree = "<group>";
+		};
+		AF8AF67B2889529400ACFC93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF8AF685288AF0DE00ACFC93 /* FocusTimeView.swift */,
+				AF272AC9289131A100CF8C05 /* TimeComponent.swift */,
+				AF272ACB28917F4200CF8C05 /* PickerComponent.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF8AF67C288952A600ACFC93 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF272AC7289125BD00CF8C05 /* TimerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF8AF67D288952D600ACFC93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF8AF669288932D100ACFC93 /* TodoListView.swift */,
+				AF8AF681288A797E00ACFC93 /* TodayGoalView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF8AF67E288952DE00ACFC93 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF272AC5288ED6FB00CF8C05 /* TodoListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +247,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8AF66A288932D100ACFC93 /* ContentView.swift in Sources */,
+				AF8AF686288AF0DE00ACFC93 /* FocusTimeView.swift in Sources */,
+				AF8AF684288A9F5300ACFC93 /* NavigationBarModifier.swift in Sources */,
+				AF8AF68028895A5D00ACFC93 /* ColorExtension.swift in Sources */,
+				AF272ACA289131A100CF8C05 /* TimeComponent.swift in Sources */,
+				AF272AC6288ED6FB00CF8C05 /* TodoListViewModel.swift in Sources */,
+				AF8AF682288A797E00ACFC93 /* TodayGoalView.swift in Sources */,
+				AF8AF66A288932D100ACFC93 /* TodoListView.swift in Sources */,
+				AF272AC4288E84FA00CF8C05 /* CoreDataManager.swift in Sources */,
+				AF272AC8289125BD00CF8C05 /* TimerViewModel.swift in Sources */,
+				AF272AC2288DAE0100CF8C05 /* CoreDataModel.xcdatamodeld in Sources */,
 				AF8AF668288932D100ACFC93 /* NC2_William_YulioApp.swift in Sources */,
+				AF272ACC28917F4200CF8C05 /* PickerComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +459,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF272AC0288DAE0100CF8C05 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF272AC1288DAE0100CF8C05 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = AF272AC1288DAE0100CF8C05 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AF8AF65C288932D100ACFC93 /* Project object */;
 }
