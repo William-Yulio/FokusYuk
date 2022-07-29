@@ -62,6 +62,7 @@ struct TodayGoalView: View {
                             Image(systemName: task.isCompleted
                                   ? "checkmark.circle.fill" : "circle")
                                 .font(Font.system(size: 17.0))
+                                .foregroundColor(Color(hex: 0xD2A075))
                                 .onTapGesture {
                                     checkIsCompleted(task)
                                 }
@@ -69,11 +70,13 @@ struct TodayGoalView: View {
                                 .fontWeight(.semibold)
                                 .lineLimit(2)
                                 .minimumScaleFactor(0.5)
+                                .foregroundColor(Color(hex: 0xE1E1E1))
                         }
                     }.onDelete(perform: deleteTask)
                     
                 }.headerProminence(.increased)
                     .padding()
+                    .listRowBackground(Color(hex: 0x5B6263))
                 
                 HStack {
                     Spacer(minLength: 20)
@@ -84,6 +87,7 @@ struct TodayGoalView: View {
                         }){
                             Image(systemName: "plus")
                                 .font(Font.system(size: 17.0))
+                                .foregroundColor(Color(hex: 0xCBCACA))
                         }
                             TextField ("Add New Task", text: $newTask)
                     }  // HSTack
@@ -97,6 +101,7 @@ struct TodayGoalView: View {
                             Image(systemName: task.isCompleted
                                   ? "checkmark.circle.fill" : "circle")
                                 .font(Font.system(size: 17.0))
+                                .foregroundColor(Color(hex: 0xD2A075))
                                 .onTapGesture {
                                     checkIsCompleted(task)
                                 }
@@ -104,11 +109,15 @@ struct TodayGoalView: View {
                                 .fontWeight(.semibold)
                                 .lineLimit(2)
                                 .minimumScaleFactor(0.5)
+                                .foregroundColor(Color(hex: 0xE1E1E1))
                         }
                     }.onDelete(perform: deleteTask)
                 }.headerProminence(.increased)
                     .padding()
+                    .listRowBackground(Color(hex: 0x5B6263))
         }//end of list
+            
+            
         
         
     }

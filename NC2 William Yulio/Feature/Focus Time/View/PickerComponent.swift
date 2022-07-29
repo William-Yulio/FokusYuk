@@ -17,21 +17,27 @@ struct PickerComponent: View {
     
     var body: some View {
         
-        Picker("Select a task...",
-               
-            selection: $selection){
-            ForEach(allTasks){ task in
-                Text(task.taskName ?? "")
-                .fontWeight(.semibold)
-                .lineLimit(2)
-                .minimumScaleFactor(0.5)
+        Picker(selection: $selection,
+               content: {
+                ForEach(allTasks){ task in
+                    Text(task.taskName ?? "")
+                    .fontWeight(.semibold)
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.5)
+                }
+        },
+               label: {
+                HStack{
+                    Text("Select a task...")
+                    Image(systemName: "chevron.right")
+                }
+                .padding()
                 
-            }
-            }
-            .frame(width: 281, height: 57, alignment: .center)
+        }).frame(width: 281, height: 57, alignment: .center)
             .foregroundColor(Color(hex: 0xE1E1E1))
             .background(Color(hex: 0x5B6263))
             .cornerRadius(18)
+        
     }
 }
 

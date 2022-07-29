@@ -13,6 +13,8 @@
 		AF272AC8289125BD00CF8C05 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272AC7289125BD00CF8C05 /* TimerViewModel.swift */; };
 		AF272ACA289131A100CF8C05 /* TimeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272AC9289131A100CF8C05 /* TimeComponent.swift */; };
 		AF272ACC28917F4200CF8C05 /* PickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272ACB28917F4200CF8C05 /* PickerComponent.swift */; };
+		AF272ACF2892E8A700CF8C05 /* FokusYukBGSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF272ACE2892E8A700CF8C05 /* FokusYukBGSong.mp3 */; };
+		AF272AD12892F6CB00CF8C05 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272AD02892F6CA00CF8C05 /* CustomColor.swift */; };
 		AF8AF668288932D100ACFC93 /* NC2_William_YulioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF667288932D100ACFC93 /* NC2_William_YulioApp.swift */; };
 		AF8AF66A288932D100ACFC93 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF669288932D100ACFC93 /* TodoListView.swift */; };
 		AF8AF66C288932D400ACFC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8AF66B288932D400ACFC93 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		AF272AC7289125BD00CF8C05 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		AF272AC9289131A100CF8C05 /* TimeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeComponent.swift; sourceTree = "<group>"; };
 		AF272ACB28917F4200CF8C05 /* PickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerComponent.swift; sourceTree = "<group>"; };
+		AF272ACE2892E8A700CF8C05 /* FokusYukBGSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FokusYukBGSong.mp3; sourceTree = "<group>"; };
+		AF272AD02892F6CA00CF8C05 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		AF8AF664288932D100ACFC93 /* NC2 William Yulio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC2 William Yulio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8AF667288932D100ACFC93 /* NC2_William_YulioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_William_YulioApp.swift; sourceTree = "<group>"; };
 		AF8AF669288932D100ACFC93 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
@@ -52,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF272ACD2892E88300CF8C05 /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				AF272ACE2892E8A700CF8C05 /* FokusYukBGSong.mp3 */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
 		AF8AF65B288932D100ACFC93 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +83,7 @@
 		AF8AF666288932D100ACFC93 /* NC2 William Yulio */ = {
 			isa = PBXGroup;
 			children = (
+				AF272ACD2892E88300CF8C05 /* Song */,
 				AF8AF678288951CC00ACFC93 /* Common Model */,
 				AF8AF677288951C000ACFC93 /* Helper */,
 				AF8AF676288951AE00ACFC93 /* Utilities */,
@@ -112,6 +125,7 @@
 			children = (
 				AF8AF67F28895A5D00ACFC93 /* ColorExtension.swift */,
 				AF8AF683288A9F5300ACFC93 /* NavigationBarModifier.swift */,
+				AF272AD02892F6CA00CF8C05 /* CustomColor.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -236,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF8AF66F288932D400ACFC93 /* Preview Assets.xcassets in Resources */,
+				AF272ACF2892E8A700CF8C05 /* FokusYukBGSong.mp3 in Resources */,
 				AF8AF66C288932D400ACFC93 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +265,7 @@
 				AF8AF686288AF0DE00ACFC93 /* FocusTimeView.swift in Sources */,
 				AF8AF684288A9F5300ACFC93 /* NavigationBarModifier.swift in Sources */,
 				AF8AF68028895A5D00ACFC93 /* ColorExtension.swift in Sources */,
+				AF272AD12892F6CB00CF8C05 /* CustomColor.swift in Sources */,
 				AF272ACA289131A100CF8C05 /* TimeComponent.swift in Sources */,
 				AF272AC6288ED6FB00CF8C05 /* TodoListViewModel.swift in Sources */,
 				AF8AF682288A797E00ACFC93 /* TodayGoalView.swift in Sources */,
@@ -401,7 +417,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NanoChallenge2.NC2-William-Yulio";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NC2 William Yulio";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -430,7 +446,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NanoChallenge2.NC2-William-Yulio";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NC2 William Yulio";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
